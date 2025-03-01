@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DJI RC DATA2SD</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Data 2 SD</string>
+    <string name="second_fragment_label">Console Debug</string>
+    <string name="magic">Exec data2sd</string>
+    <string name="previous">Previous</string>
+
+    <string name="showDebug">Show Debug</string>
+    <string name="sdPartition">Prepare SD</string>
+    <string name="confirmPartitionSD">This will delete all content on the microSD and restart the device once finished. Do you want to continue?</string>
+    <string name="doPartitionToast">Partitioning the microSD...</string>
+    <string name="partition_1_partitioning">Creating partitions</string>
+    <string name="partition_2_unmount">Unmounting partitions</string>
+    <string name="partition_3_wait">Waiting for the system to unmount the partitions (30 seconds)</string>
+    <string name="partition_4_format">Formatting the new data partition with Ext4</string>
+    <string name="partition_5_mount">Mounting the new partition</string>
+    <string name="partition_6_copy">Copying data from the DATA partition</string>
+    <string name="partition_7_reboot">Restarting in 5 seconds</string>
+    <string name="no_root_detected">Root access not detected. Please check the GitHub page for more information.</string>
+    <string name="sd_mounted">It was detected that the SD is already mounted in Data, so the application will exit.</string>
+    <string name="no_SD">MicroSD card not detected, the application cannot continue.</string>
+    <string name="discleimer">DJI RC Data2SD is an application designed to expand the internal storage of your DJI RC device using a microSD card. By pressing the \'Run data2SD\' button, the application swap the data partition to the microSD card, freeing up space on the internal storage. This setup allows you to safely perform software tests, as the operating system partition remains protected and is restored when the device is restarted. Please note that this application is provided without warranty. The user assumes all responsibility for the use of this software.</string>
+    <string name="wrong_device">Warning: This application has been tested exclusively on the DJI RC (rm330) model. Compatibility with other models is not guaranteed. Use on unsupported devices is at your own risk, and the user assumes all responsibility for any consequences.</string>
+    <string name="mounting_title">SD Card Mounting</string>
+    <string name="mounting_content">Mounting the SD card to the correct locations and restarting the system user interface.</string>
+</resources>

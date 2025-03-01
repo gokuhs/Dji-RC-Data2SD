@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DJI RC DATA2SD</string>
+    <string name="first_fragment_label">Data 2 SD</string>
+    <string name="second_fragment_label">Depuración Consola</string>
+    <string name="magic">Ejecutar data2sd</string>
+    <string name="previous">Anterior</string>
+    <string name="showDebug">Mostrar Depuración</string>
+    <string name="sdPartition">Preparar SD</string>
+    <string name="confirmPartitionSD">Esto eliminará todo el contenido de la microSD y reiniciará el dispositivo una vez termine. ¿Quieres continuar?</string>
+    <string name="doPartitionToast">Particionando la microsd...</string>
+    <string name="partition_1_partitioning">Creando las particiones</string>
+    <string name="partition_2_unmount">Desmontando las particiones</string>
+    <string name="partition_3_wait">Esperando que el sistema desmonte las particiones (30 segundos)</string>
+    <string name="partition_4_format">Formateando la partición de datos con Ext4</string>
+    <string name="partition_5_mount">Montando la nueva partición</string>
+    <string name="partition_6_copy">Copiando datos de la partición DATA</string>
+    <string name="partition_7_reboot">Reiniciando en 5 segundos</string>
+    <string name="no_root_detected">No se ha detectado acceso root. Por favor, revisa la página de github para mas información</string>
+    <string name="sd_mounted">Se detectó que la SD ya está montada en Data, por lo que se saldrá de la aplicación</string>
+    <string name="no_SD">No se detectó tarjeta microSD, la aplicación no puede continuar</string>
+    <string name="discleimer">DJI RC Data2SD es una aplicación diseñada para ampliar el almacenamiento interno de tu dispositivo DJI RC utilizando una tarjeta microSD. Al presionar el botón \'Ejecutar data2SD\', la aplicación cambiará la partición de datos a la tarjeta microSD, liberando espacio en el almacenamiento interno. Esta configuración te permite realizar pruebas de software de forma segura, ya que la partición del sistema operativo permanece protegida y se restaura al reiniciar el dispositivo. Ten en cuenta que esta aplicación se proporciona sin garantía. El usuario asume toda la responsabilidad por el uso de este software.</string>
+    <string name="wrong_device">Advertencia: Esta aplicación ha sido probada exclusivamente en el modelo DJI RC (rm330). No se garantiza su compatibilidad con otros modelos. El uso en dispositivos no compatibles se realiza bajo su propio riesgo, y el usuario asume toda responsabilidad por cualquier consecuencia.</string>
+    <string name="mounting_title">Montaje de la tarjeta SD</string>
+    <string name="mounting_content">Montando la tarjeta SD en las ubicaciones correctas y reiniciando la interfaz de usuario del sistema.</string>
+</resources>
