@@ -32,6 +32,11 @@ I only test this with my rm330 unlocked with the method of DJI RC FCC: https://w
 6.  Run the DJI RC Data2SD application from the device.
 7.  Follow the on-screen instructions.
 
+## To Do
+
+* Improve code commenting.
+* Add the ability to select the partition ratio for the SD card.
+
 ## Known Issues
 
 * Sometimes, if you attempt to mount the SD card after starting DJI Fly, the device may get stuck on the boot screen. Simply restart the device and run DJI RC Data2SD before starting DJI Fly.
