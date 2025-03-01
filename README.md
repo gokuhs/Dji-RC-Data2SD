@@ -41,6 +41,11 @@ I only test this with my rm330 unlocked with the method of DJI RC FCC: https://w
 
 * Sometimes, if you attempt to mount the SD card after starting DJI Fly, the device may get stuck on the boot screen. Simply restart the device and run DJI RC Data2SD before starting DJI Fly.
 
+## Thanks to
+
+* mobile-dev-inc - dadb: [https://github.com/mobile-dev-inc/dadb](https://github.com/mobile-dev-inc/dadb)
+
+
 ## Disclaimer
 
 Use this application at your own risk. The developer is not responsible for any damage or data loss that may occur.
